@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+
+
+/* Add border to the entire table */
+table {
+  border-collapse: collapse; /* Combine cell borders into a single border */
+  width: 100%; /* Make the table expand to its container width */
+}
+
+/* Add border to table header row (optional) */
+table th {
+  border: 1px solid #000; /* Add a 1px solid black border to header cells */
+  padding: 8px; /* Add some padding for spacing */
+  text-align: left; /* Adjust text alignment as needed */
+}
+
+/* Add border to table data cells */
+table td {
+  border: 1px solid #000; /* Add a 1px solid black border to data cells */
+  padding: 8px; /* Add some padding for spacing */
+  text-align: left; /* Adjust text alignment as needed */
+}
+
+/* Add a border to table columns (optional) */
+/* This example adds a border to the first and second columns */
+table td:nth-child(1),
+table td:nth-child(2) {
+  border-right: 1px solid #000; /* Add a 1px solid black border to the right of specific columns */
+}
+
+/* Add a border to specific column headers (optional) */
+/* This example adds a border to the first and second column headers */
+table th:nth-child(1),
+table th:nth-child(2) {
+  border-right: 1px solid #000; /* Add a 1px solid black border to the right of specific column headers */
+}
+
+
+
