@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global resets and smooth scrolling */
+html, body, #root {
+  height: 100%;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* Reusable utilities */
+.container-px {
+  @apply px-4 sm:px-6 lg:px-8;
+}
+
